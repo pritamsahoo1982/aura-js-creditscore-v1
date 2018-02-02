@@ -1,4 +1,4 @@
-/*
+//*
  * GET list of all scores. Will return a simple Welcome message for now!
  * Note: In this version we don't persist any scores so there is nothing to return.
  */
@@ -10,8 +10,8 @@ exports.list = function(req, res){
     var resultData = {
 
 // _CHANGE_ : Please comment the line with the DUMMY message and uncomment the one with the Welcome message
-        "MESSAGE": "DUMMY message V1"
-        //"MESSAGE": "Welcome to aura-js-creditscore version V1"
+        // "MESSAGE": "DUMMY message V1"
+        "MESSAGE": "Welcome to aura-js-creditscore version V1"
 
     };
 
